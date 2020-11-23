@@ -306,11 +306,92 @@ box-sizing: border-box;
             }
 
             .btm-nav{
+                  position: relative;
                   display: block;
                   width: 1090px;
                   height: 30px;
                   float: left;
                   margin-top: 20px;
+                  .nav-li-left{
+                        padding-right: 26px;
+                  }
+                  .nav-li-right{
+                        padding-left: 26px;
+                  }
+                  .nav-li{
+                        padding: 0 26px;
+                       
+                  } 
+                  .nav-li:hover .nav-ul{
+                        display: block;
+                  }
+                  .nav-span{
+                              border-left: 1px solid #ccc;
+                              height: 14px;
+                              margin-top: 5px;
+                        }
+                  li{
+                        float: left;
+                        .nav-l-a{
+                              font-weight: 700;
+                              font-size: 14px;
+                              color: #000;
+                              padding-bottom: 4px;
+                        }
+                        .nav-l-a:hover{
+                              color: #cc9756;
+                              border-bottom: 3px solid #CC9756;
+                        }
+                  }
+                  // 下拉
+                  .nav-ul{
+                        display: none;
+                        position: absolute;
+                        top: 28px;
+                        padding: 14px 20px 20px;
+                        background: #fff;
+                        border: 1px solid rgba(0,0,0,.1);
+                        .nav-ul-li{
+                              float: left;
+                              margin-right: 24px;
+                              .li-top{
+                                    max-width: 124px;
+                                    width: 124px;
+                                    display: inline-block;
+                                    margin-bottom: 10px;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    line-height: 36px;
+                                    border-bottom: 1px solid #ddd
+                              }
+                              .li-bottom{
+                                    box-sizing: border-box;
+                                    .li-b-a:hover span{
+                                          color: #cc9756;
+                                    }
+                                    .li-b-a{
+                                          float: left;
+                                          color: #333;
+                                          img{
+                                                display: inline-block;
+                                                width: 50px;
+                                                height: 50px;
+                                          }
+                                          span{
+                                                display: inline-block;
+                                                width: 70px;
+                                                max-width: 70px;
+                                                max-height: 48px;
+                                                line-height: 48px;
+                                                margin-left: 4px;
+                                                font-size: 14px;
+                                                overflow: hidden;
+                                          }
+                                    }
+                              }
+                        }
+                  }
+
             }
 
       }
