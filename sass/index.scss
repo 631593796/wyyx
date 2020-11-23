@@ -1,0 +1,209 @@
+.banner-box{
+    overflow: hidden;
+    .banner{
+      width: 1404px;
+      height: 420px;
+      img{
+        display: block;
+      }
+    }
+}//banner图
+//吸顶专用
+.main-top{
+.m-top-xd-box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  z-index: 9;
+  .m-top-xd-box2{
+    position: relative;
+  .m-top-xd{
+    width: 1090px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 6px;
+    .xd-logo{
+      display: block;
+      float: left;
+      width: 126px;
+      height: 30px;
+      margin-top: 6px;
+      background: url(../img/3.png)no-repeat 0 -438px;
+      margin-left: 2px;
+    }
+    .xd-ul{
+      display: block;
+      float: left;
+      height: 30px;
+      li{
+        display: block;
+        float: left;
+        margin-top: 8px;
+       padding: 0 17px;
+       .xd-li-a{
+            color: #333;
+            padding-bottom: 12px;
+            font-size: 14px;
+            font-weight: bold;
+       }
+      }
+        .xd-li{
+            // 下拉
+            .xd-nav-ul{
+            display: none;
+            background-color: #fff;
+            position: absolute;
+            top: 50px;
+            padding: 14px 20px 20px;
+            background: #fff;
+            border: 1px solid rgba(0,0,0,.1);
+            z-index: 9;
+            .nav-ul-li{
+                  float: left;
+                  margin-right: 24px;
+                  .li-top{
+                        max-width: 124px;
+                        width: 124px;
+                        display: inline-block;
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 36px;
+                        border-bottom: 1px solid #ddd
+                  }
+                  .li-bottom{
+                        box-sizing: border-box;
+                        .li-b-a:hover span{
+                              color: #cc9756;
+                        }
+                        .li-b-a{
+                              float: left;
+                              color: #333;
+                              img{
+                                    display: inline-block;
+                                    width: 50px;
+                                    height: 50px;
+                              }
+                              span{
+                                    display: inline-block;
+                                    width: 70px;
+                                    max-width: 70px;
+                                    max-height: 48px;
+                                    line-height: 48px;
+                                    margin-left: 4px;
+                                    font-size: 14px;
+                                    overflow: hidden;
+                              }
+                        }
+                  }
+              }
+            }
+       }
+       .xd-li:hover .xd-nav-ul{
+             display: block;
+       }
+       .xd-li:hover .nav-ul{
+            display: block;
+       }
+      .xd-li:hover .xd-li-a{
+            border-bottom: 3px solid #CC9756;
+      }
+      .xd-1{
+         margin-left: 12px;
+         a{
+            font-size: 14px;
+            font-weight: bold;
+            color: #cc9756;
+            border-bottom: 3px solid #CC9756;
+            padding-bottom: 12px;
+         }
+      }
+      
+    }
+
+    .xd-fd{
+      float: left;
+      background: url(../img/3.png) no-repeat 0 -544px;
+      height: 17px;
+      margin-top: 14px;
+      margin-left: 8px;
+      margin-right: 24px;
+      width: 20px;
+      cursor: pointer;
+     }
+     .xd-dl{
+      float: left;
+      background: url(../img/3.png) no-repeat 0 -722px;
+      width: 20px;
+      height: 22px;
+      margin-top: 10px;
+      margin-left: 8px;
+      margin-right: 24px;
+      cursor: pointer;
+     }
+     .xd-gw{
+      float: left;
+      background: url(../img/3.png) no-repeat 0 -205px;
+      width: 20px;
+      height: 22px;
+      margin-top: 10px;
+      margin-left: 8px;
+      cursor: pointer;
+     }
+  }
+}//吸顶
+}
+}
+ //主体内容
+ .main-box{
+position: relative;
+.main{
+   .m-lun{
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 510px;
+    margin-top: 30px;
+    .m-l-top{
+      width: 100%;
+      padding-bottom: 20px;
+      height:48px ;
+      a{
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 1;
+         float: left;
+         margin-right: 20px;
+         color: #333;
+      }  
+      a:hover{
+            color: #cc9595;
+      } 
+      span{
+         display: block;
+         float: left;
+         color: #333;
+         font-size: 12px;
+         margin-top: 12px;
+      }
+      i{
+        display: block;
+        float: right;
+        color: #333;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      i:hover{
+            color: #cc9595;
+      }
+    }//上半截
+    
+
+
+   }
+}
+}

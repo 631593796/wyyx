@@ -314,6 +314,11 @@ box-sizing: border-box;
                   margin-top: 20px;
                   .nav-li-left{
                         padding-right: 26px;
+                        a{
+                              padding-bottom: 4px;
+                              color: #cc9756;
+                              border-bottom: 3px solid #CC9756;
+                        }
                   }
                   .nav-li-right{
                         padding-left: 26px;
