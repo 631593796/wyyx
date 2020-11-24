@@ -11,6 +11,7 @@
 //吸顶专用
 .main-top{
 .m-top-xd-box{
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -145,6 +146,7 @@
       cursor: pointer;
      }
      .xd-gw{
+      position: relative;
       float: left;
       background: url(../img/3.png) no-repeat 0 -205px;
       width: 20px;
@@ -152,6 +154,18 @@
       margin-top: 10px;
       margin-left: 8px;
       cursor: pointer;
+      i{
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        display: block;
+        width: 19px;
+        height: 19px;
+         background: url(../img/3.png) no-repeat 0 -51px;
+        position: absolute;
+        left: 14px;
+        top: -10px;
+      }
      }
   }
 }//吸顶
@@ -202,8 +216,150 @@ position: relative;
       }
     }//上半截
     
+    .m-l-center1{
+      width: 1090px;
+      overflow: hidden;
+      .m-l-left{
+        display: block;
+        background-color: #E7E2D7;
+        position: absolute;
+        z-index: 9;
+        top: 200px;
+        left: -60px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        opacity: 80;
+        border-radius: 500px;
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        padding-right: 6px;
+      }
+      .m-l-right{
+        display: block;
+        background-color: #E7E2D7;
+        position: absolute;
+        z-index: 9;
+        top: 200px;
+        right: -60px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        opacity: 80;
+        border-radius: 500px;
+        font-size: 40px;
+        color: #fff;
+        padding-left: 12px;
+      }
+      .m-l-center2{
+        width: 2000px;
+        margin-right: 10px;
+        float: left;
+        text-align: center;
+        font-size: 13px;
+        .l-c2-l1{
+          width: 265px;
+          .c2-l1-top{
+            width: 265px;
+          height: 265px;
+          margin-bottom:8px;
+          overflow: hidden;
+          position: relative;
+          background-color: #f4f4f4;
+            .l1-t-m1{
+              display: block;
+              width: 265px;
+              height: 265px;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            .l1-t-m2{
+              display: none;
+              width: 265px;
+              height: 265px;
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            p{
+              width: 265px;
+              height: 30px;
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              background-color:  rgb(243,130,69);
+              .l1-t-i1{
+                position: absolute;
+                top: -7px;
+                left: 0;
+                display: block;
+                height: 36px;
+                width: 82px;
+                background-color: rgb(237,109,43);
+                border-radius: 4px 16px 0 0;
+                .i1-s1{
+                  display: block;
+                  font-size: 12px;
+                  text-align: center;
+                  color: #fff;
+                  margin-top: 3px;
+                }
+                .i1-s2{
+                  display: block;
+                  text-align: center;
+                  color: #fff;
+                  font-size: 14px;
+                  font-weight: 700;
+                  float: left;
+                  margin-left: 14px;
+                }
+                .i1-s3{
+                  display: block;
+                  text-align: center;
+                  color: #fff;
+                  font-size: 12px;
+                  float: left;
+                  margin-top: 2px;
+                }
+              }
+              .l1-t-i2{
+                color: #fff;
+                text-align: left;
+                overflow: hidden;
+                height: 30px;
+                line-height: 30px;
+                font-size: 12px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-left: 4px;
+                padding-left: 4px;
+              }
+            }
+          }
+          .c2-l1-bottom{
+            // width: 265px;
+            p{
+              margin-left: 6px;
+              height: 20px;
+              line-height: 20px;
+              color: #fff!important;
+              padding: 0 5px;
+              background-color: #e36844;
+              font-size: 12px;
+              text-align: center;
+              margin: 0 50px 3px 50px;
+            }
+          }
+        }
+      }
+
+
+    }//中间
 
 
    }
+//主体底部
 }
 }
