@@ -7,3 +7,11 @@ $(document).on('scroll',()=>{
       $('.m-top-xd-box').css('display',"block")
      }
 })
+
+// 轮播
+var mySwiper = new Swiper ('.swiper-container', {
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     }
+   }) 
